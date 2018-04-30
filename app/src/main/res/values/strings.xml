@@ -1,0 +1,112 @@
+<resources>
+    <string name="app_name">RxJava</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+
+    //launch
+    <string name="launch_slogan">RxJava2.x Operators</string>
+
+    //OperatorFragment
+    <string name="operator">操作符</string>
+    <string name="gem_img">宝石图</string>
+    <string name="official_explain">官方释义</string>
+    <string name="code_in_action">代码实战</string>
+
+    //Creating Observables
+    <string name="operator_category_creating_observables">Creating Observables</string>
+    <string name="operator_create">Create</string>
+    <string name="operator_defer">Defer</string>
+    <string name="operator_empty">Empty</string>
+    <string name="operator_never">Never</string>
+    <string name="operator_error">Error</string>
+    <string name="operator_from">From(multiple)</string>
+    <string name="operator_interval">Interval</string>
+    <string name="operator_just">Just</string>
+    <string name="operator_range">Range</string>
+    <string name="operator_repeat">Repeat</string>
+    <string name="operator_timer">Timer</string>
+
+    //Transforming Observables
+    <string name="operator_category_transforming_observables">Transforming Observables</string>
+    <string name="operator_buffer">Buffer</string>
+    <string name="operator_flatMap">FlatMap</string>
+    <string name="operator_groupBy">GroupBy</string>
+    <string name="operator_map">Map</string>
+    <string name="operator_scan">Scan</string>
+    <string name="operator_window">Window</string>
+
+    //Filtering Observables
+    <string name="operator_category_filtering_observables">Filtering Observables</string>
+    <string name="operator_debounce">Debounce</string>
+    <string name="operator_distinct">Distinct</string>
+    <string name="operator_elementAt">ElementAt</string>
+    <string name="operator_filter">Filter</string>
+    <string name="operator_first">First</string>
+    <string name="operator_ignoreElements">IgnoreElements</string>
+    <string name="operator_Last">Last</string>
+    <string name="operator_sample">Sample</string>
+    <string name="operator_skip">Skip</string>
+    <string name="operator_skipLast">SkipLast</string>
+    <string name="operator_take">Take</string>
+    <string name="operator_takeLast">TakeLast</string>
+
+    //Combining Observables
+    <string name="operator_category_combining_observables">Combining Observables</string>
+    <string name="operator_and_then_when">And/Then/When</string>
+    <string name="operator_combineLatest">CombineLatest</string>
+    <string name="operator_join">Join</string>
+    <string name="operator_merge">Merge</string>
+    <string name="operator_start_with">StartWith</string>
+    <string name="operator_switch">Switch</string>
+    <string name="operator_zip">Zip</string>
+
+    //Error Handling Operators
+    <string name="operator_category_error_handling_operators">Error Handling Operators</string>
+    <string name="operator_catch">Catch(multiple)</string>
+    <string name="operator_retry">Retry</string>
+
+    //Observable Utility Operators
+    <string name="operator_category_observable_utility_operators">Observable Utility Operators</string>
+    <string name="operator_delay">Delay</string>
+    <string name="operator_do">Do(multiple)</string>
+    <string name="operator_materialize">Materialize</string>
+    <string name="operator_dematerialize">Dematerialize</string>
+    <string name="operator_observeOn">ObserveOn</string>
+    <string name="operator_serialize">Serialize</string>
+    <string name="operator_subscribe">Subscribe</string>
+    <string name="operator_subscribeOn">SubscribeOn</string>
+    <string name="operator_timeInterval">TimeInterval</string>
+    <string name="operator_timeout">Timeout</string>
+    <string name="operator_timeStamp">Timestamp</string>
+    <string name="operator_using">Using</string>
+
+    // Conditional and Boolean Operators
+    <string name="operator_category_conditional_and_boolean_operators">Conditional and Boolean Operators</string>
+    <string name="operator_all">All</string>
+    <string name="operator_amb">Amb</string>
+    <string name="operator_contains">Contains</string>
+    <string name="operator_defaultIfEmpty">DefaultIfEmpty</string>
+    <string name="operator_sequenceEqual">SequenceEqual</string>
+    <string name="operator_skipUntil">SkipUntil</string>
+    <string name="operator_skipWhile">SkipWhile</string>
+    <string name="operator_takeUtil">TakeUntil</string>
+    <string name="operator_takeWhile">TakeWhile</string>
+
+    //Mathematical and Aggregate Operators
+    <string name="operator_category_mathematical_and_aggregate_operators">Mathematical and Aggregate Operators</string>
+    <string name="operator_concat">Concat</string>
+    <string name="operator_reduce">Reduce</string>
+
+    //Connectable Observable Operators
+    <string name="operator_category_connectable_observable_operators">Connectable Observable Operators</string>
+    <string name="operator_connect">Connect</string>
+    <string name="operator_publish">Publish</string>
+    <string name="operator_refCount">RefCount</string>
+    <string name="operator_replay">Replay</string>
+
+    //Operators to Convert Observables
+    <string name="operator_category_operators_to_convert_observables">Operators to Convert Observables</string>
+    <string name="operator_to">To(multiple)</string>
+</resources>

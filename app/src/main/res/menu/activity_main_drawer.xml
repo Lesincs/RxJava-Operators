@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="@string/operator_category_creating_observables">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/menu_operator_create"
+                android:icon="@android:color/transparent"
+                android:title="@string/operator_create" />
+            <item
+                android:id="@+id/menu_operator_defer"
+                android:title="@string/operator_defer" />
+            <item
+                android:id="@+id/menu_operator_empty"
+                android:title="@string/operator_empty" />
+            <item
+                android:id="@+id/menu_operator_never"
+                android:title="@string/operator_never" />
+            <item
+                android:id="@+id/menu_operator_error"
+                android:title="@string/operator_error" />
+            <item
+                android:id="@+id/menu_operator_from"
+                android:title="@string/operator_from" />
+            <item
+                android:id="@+id/menu_operator_interval"
+                android:title="@string/operator_interval" />
+            <item
+                android:id="@+id/menu_operator_just"
+                android:title="@string/operator_just" />
+            <item
+                android:id="@+id/menu_operator_range"
+                android:title="@string/operator_range" />
+            <item
+                android:id="@+id/menu_operator_timer"
+                android:title="@string/operator_timer" />
+            </group>
+        </menu>
+    </item>
+
+
+    <item android:title="@string/operator_category_transforming_observables">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/menu_operator_buffer"
+                android:icon="@android:color/transparent"
+                android:title="@string/operator_buffer" />
+            <item
+                android:id="@+id/menu_operator_flatMap"
+                android:title="@string/operator_flatMap" />
+            <item
+                android:id="@+id/menu_operator_groupBy"
+                android:title="@string/operator_groupBy" />
+            <item
+                android:id="@+id/menu_operator_map"
+                android:title="@string/operator_map" />
+            <item
+                android:id="@+id/menu_operator_scan"
+                android:title="@string/operator_scan" />
+            <item
+                android:id="@+id/menu_operator_window"
+                android:title="@string/operator_window" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="@string/operator_category_filtering_observables">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/menu_operator_debounce"
+                android:icon="@android:color/transparent"
+                android:title="@string/operator_debounce" />
+            <item
+                android:id="@+id/menu_operator_distinct"
+                android:title="@string/operator_distinct" />
+            <item
+                android:id="@+id/menu_operator_elementAt"
+                android:title="@string/operator_elementAt" />
+            <item
+                android:id="@+id/menu_operator_filter"
+                android:title="@string/operator_filter" />
+            <item
+                android:id="@+id/menu_operator_first"
+                android:title="@string/operator_first" />
+            <item
+                android:id="@+id/menu_operator_ignoreElements"
+                android:title="@string/operator_ignoreElements" />
+            <item
+                android:id="@+id/menu_operator_last"
+                android:title="@string/operator_Last" />
+            <item
+                android:id="@+id/menu_operator_sample"
+                android:title="@string/operator_sample" />
+            <item
+                android:id="@+id/menu_operator_skip"
+                android:title="@string/operator_skip" />
+            <item
+                android:id="@+id/menu_operator_skipLast"
+                android:title="@string/operator_skipLast" />
+            <item
+                android:id="@+id/menu_operator_take"
+                android:title="@string/operator_take" />
+            <item
+                android:id="@+id/menu_operator_takeLast"
+                android:title="@string/operator_takeLast" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="@string/operator_category_combining_observables">
+        <menu>
+            <group android:checkableBehavior="single">
+
+            <item
+                android:id="@+id/menu_operator_combineLatest"
+                android:icon="@android:color/transparent"
+                android:title="@string/operator_combineLatest" />
+            <item
+                android:id="@+id/menu_operator_join"
+                android:title="@string/operator_join" />
+            <item
+                android:id="@+id/menu_operator_merge"
+                android:title="@string/operator_merge" />
+            <item
+                android:id="@+id/menu_operator_start_with"
+                android:title="@string/operator_start_with" />
+            <item
+                android:id="@+id/menu_operator_switch"
+                android:title="@string/operator_switch" />
+            <item
+                android:id="@+id/menu_operator_zip"
+                android:title="@string/operator_zip" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="@string/operator_category_error_handling_operators">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/menu_operator_catch"
+                android:icon="@android:color/transparent"
+                android:title="@string/operator_catch" />
+            <item
+                android:id="@+id/menu_operator_retry"
+                android:title="@string/operator_retry" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="@string/operator_category_observable_utility_operators">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/menu_operator_delay"
+                android:icon="@android:color/transparent"
+                android:title="@string/operator_delay" />
+            <item
+                android:id="@+id/menu_operator_do"
+                android:title="@string/operator_do" />
+            <item
+                android:id="@+id/menu_operator_materialize"
+                android:title="@string/operator_materialize" />
+                <item
+                    android:id="@+id/menu_operator_dematerialize"
+                    android:title="@string/operator_dematerialize" />
+                <item
+                    android:id="@+id/menu_operator_serialize"
+                    android:title="@string/operator_serialize" />
+            <item
+                android:id="@+id/menu_operator_observeOn"
+                android:title="@string/operator_observeOn" />
+            <item
+                android:id="@+id/menu_operator_subscribeOn"
+                android:title="@string/operator_subscribeOn" />
+            <item
+                android:id="@+id/menu_operator_timeInterval"
+                android:title="@string/operator_timeInterval" />
+            <item
+                android:id="@+id/menu_operator_timeOut"
+                android:title="@string/operator_timeout" />
+            <item
+                android:id="@+id/menu_operator_timeStamp"
+                android:title="@string/operator_timeStamp" />
+            <item
+                android:id="@+id/menu_operator_using"
+                android:title="@string/operator_using" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="@string/operator_category_conditional_and_boolean_operators">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/menu_operator_all"
+                android:icon="@android:color/transparent"
+                android:title="@string/operator_all" />
+            <item
+                android:id="@+id/menu_operator_amb"
+                android:title="@string/operator_amb" />
+            <item
+                android:id="@+id/menu_operator_contains"
+                android:title="@string/operator_contains" />
+            <item
+                android:id="@+id/menu_operator_defaultIfEmpty"
+                android:title="@string/operator_defaultIfEmpty" />
+            <item
+                android:id="@+id/menu_operator_sequenceEqual"
+                android:title="@string/operator_sequenceEqual" />
+            <item
+                android:id="@+id/menu_operator_skipUntil"
+                android:title="@string/operator_skipUntil" />
+            <item
+                android:id="@+id/menu_operator_skipWhile"
+                android:title="@string/operator_skipWhile" />
+            <item
+                android:id="@+id/menu_operator_takeUntil"
+                android:title="@string/operator_takeUtil" />
+            <item
+                android:id="@+id/menu_operator_takeWhile"
+                android:title="@string/operator_takeWhile" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="@string/operator_category_mathematical_and_aggregate_operators">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/menu_operator_concat"
+                android:icon="@android:color/transparent"
+                android:title="@string/operator_concat" />
+            <item
+                android:id="@+id/menu_operator_reduce"
+                android:title="@string/operator_reduce" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="@string/operator_category_connectable_observable_operators">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/menu_operator_connect"
+                android:icon="@android:color/transparent"
+                android:title="@string/operator_connect" />
+            <item
+                android:id="@+id/menu_operator_publish"
+                android:title="@string/operator_publish" />
+            <item
+                android:id="@+id/menu_operator_refCount"
+                android:title="@string/operator_refCount" />
+            <item
+                android:id="@+id/menu_operator_replay"
+                android:title="@string/operator_replay" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="@string/operator_category_operators_to_convert_observables">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/menu_operator_to"
+                android:icon="@android:color/transparent"
+                android:title="@string/operator_to" />
+            </group>
+        </menu>
+
+    </item>
+</menu>
